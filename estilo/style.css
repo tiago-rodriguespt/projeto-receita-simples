@@ -31,6 +31,12 @@ body {
     margin: auto;
 }
 
+hr {
+    width: 91%;
+    margin: auto;
+    margin-top: 30px;
+}
+
 header {
     background-color: white;
     margin-top: 150px;
@@ -69,12 +75,18 @@ header p {
 
 aside {
     background-color: #FFF7FC;
+    color: #312e31;
     width: 85%;
     list-style-position: inside;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     border-radius: 30px;
+}
+
+aside ul li::marker {
+    color: #771945;
+    font-weight: bold;
 }
 
 aside h3 {
@@ -121,13 +133,12 @@ main ul {
     line-height: 40px;
 }
 
-hr {
-    width: 91%;
-    margin: auto;
-    margin-top: 30px;
+main div {
+    color: #664635;
 }
 
 main ol {
+    color: #664635;
     list-style-position: inside;
     margin-left: 50px;
     font-family: var(--fonte-outfit);
@@ -136,6 +147,7 @@ main ol {
 }
 
 article p {
+    color: #664635;
     font-family: var(--fonte-outfit);
     font-size: 1.3em;
     margin-left: 50px;
